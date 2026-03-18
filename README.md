@@ -399,8 +399,7 @@ def predict_cgpa(student_data: dict) -> float:
     
     return round(prediction, 2)
     
-👨‍💻 Author
-<div align="center"> <table> <tr> <td align="center"> <img src="https://github.com/kishan-p-code.png" width="100" height="100" style="border-radius: 50%;" alt="Kishan Prajapati"> <br> <b>Kishan Prajapati</b> <br> <sub>Full Stack Developer & ML Engineer</sub> </td> </tr> </table> <p> <a href="https://kishan-prajapati.com"> <img src="https://img.shields.io/badge/Portfolio-1e1b4b?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"> </a> <a href="https://linkedin.com/in/kishan-prajapati"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"> </a> <a href="https://github.com/kishan-p-code"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"> </a> <a href="mailto:kishan@example.com"> <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"> </a> </p> </div>
+
 🙏 Acknowledgments
 Data Contributors: Students and institutions who provided anonymized data
 
@@ -410,16 +409,4 @@ Mentors: For valuable feedback and guidance
 
 Beta Testers: For testing and improvement suggestions
 
-📊 Project Statistics
-<div align="center">
-Metric	Value
-⭐ GitHub Stars	150+
-🍴 Forks	45+
-👀 Watchers	20+
-📥 Downloads	1000+
-🐛 Open Issues	5
-✅ Closed Issues	32
-🤝 Contributors	8
-</div>
-<div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=kishan-p-code/Predicting-Student-CGPA&type=Date&theme=dark"> <img src="https://api.star-history.com/svg?repos=kishan-p-code/Predicting-Student-CGPA&type=Date" alt="Star History Chart" width="600"> </picture> </div>
-<div align="center"> <p> <sub>Built with ❤️ by <b>Kishan Prajapati</b></sub> <br> <sub>© 2024 Academic Intelligence System. All rights reserved.</sub> </p> <p> <a href="#-academic-intelligence-system---ml-powered-cgpa-predictor">⬆️ Back to Top</a> </p> </div>
+
