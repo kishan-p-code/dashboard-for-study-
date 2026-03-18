@@ -60,55 +60,33 @@ System Flowchart
 
 
 Directory Structure
-text
-cgpa-prediction-system/
-├── 📁 .github/ # GitHub workflows and templates
-│ └── workflows/
-│ ├── ci.yml # Continuous integration
-│ └── deploy.yml # Deployment pipeline
+<span class="text-blue-400">cgpa-prediction-system/</span>
+├── app.py                 <span class="text-gray-500"># Flask app + ML endpoints</span>
+├── iq_data.py             <span class="text-gray-500"># IQ logic & data handling</span>
+├── model.pkl              <span class="text-gray-500"># Trained ML model</span>
+├── data_preprocessing.py  <span class="text-gray-500"># Data cleaning & transformation</span>
+├── model_training.py      <span class="text-gray-500"># Model training (RF / Linear)</span>
+├── predictions.csv        <span class="text-gray-500"># Stored predictions</span>
+├── UG_Student_CGPA_Prediction.xlsx <span class="text-gray-500"># Dataset</span>
 │
-├── 🚀 app.py # Flask application with ML endpoints
-├── 🧠 iq_data.py # IQ test logic and data handling
-├── 🤖 model.pkl # Trained ensemble model
-├── 🔧 data_preprocessing.py # Data cleaning & transformation pipeline
-├── 📊 model_training.py # Model training (RF / Linear / Neural Net)
-├── 📈 predictions.csv # Stored prediction history
-├── 📁 data/ # Dataset directory
-│ ├── raw/ # Raw data files
-│ └── processed/ # Processed data files
+├── notebook/              <span class="text-gray-500"># Jupyter notebooks</span>
+│   ├── EDA.ipynb
+│   ├── Feature_Selection_and_Regression.ipynb
+│   ├── UG_Student_CGPA_Prediction.ipynb
+│   └── EDA_data/
+│       └── EDA_UG_Student_CGPA_Prediction.ipynb
 │
-├── 📓 notebooks/ # Jupyter notebooks for EDA & modeling
-│ ├── 01_EDA.ipynb
-│ ├── 02_feature_selection.ipynb
-│ ├── 03_model_training.ipynb
-│ └── 04_model_evaluation.ipynb
+├── templates/
+│   ├── index.html         <span class="text-gray-500"># Main dashboard</span>
+│   ├── result.html        <span class="text-gray-500"># Prediction result page</span>
+│   ├── iq_dashboard.html  <span class="text-gray-500"># IQ analytics</span>
+│   ├── iq_test.html       <span class="text-gray-500"># IQ test UI</span>
+│   └── planner.html       <span class="text-gray-500"># Study planner</span>
 │
-├── 🎨 templates/ # Frontend HTML templates
-│ ├── base.html # Base template with common elements
-│ ├── index.html # Main dashboard
-│ ├── result.html # Prediction results page
-│ ├── iq_dashboard.html # IQ analytics dashboard
-│ ├── iq_test.html # Interactive IQ test UI
-│ └── planner.html # Study planner interface
-│
-├── 📁 static/ # Static assets
-│ ├── css/ # CSS stylesheets
-│ ├── js/ # JavaScript files
-│ ├── images/ # Image assets
-│ └── fonts/ # Custom fonts
-│
-├── 📁 tests/ # Unit and integration tests
-│ ├── test_models.py
-│ ├── test_api.py
-│ └── test_utils.py
-│
-├── 📦 requirements.txt # Python dependencies
-├── 🐳 Dockerfile # Container configuration
-├── 📝 docker-compose.yml # Docker compose setup
-├── 📋 .env.example # Environment variables template
-├── 📖 README.md # Project documentation
-├── 📄 LICENSE # MIT License
-└── 📋 CONTRIBUTING.md # Contribution guidelines
+├── static/                <span class="text-gray-500"># CSS, JS, assets</span>
+├── requirements.txt
+├── Dockerfile
+└── <span class="text-purple-400">README.md</span>
 
 🚀 Quick Start
 
